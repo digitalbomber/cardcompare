@@ -1,0 +1,432 @@
+/*
+Theme Name: Cardcompare (Enfold Child)
+Description: A Child Theme for the Enfold Wordpress Theme. 
+Version: 1.0
+Author: Iyan Yudhiana
+Author URI: http://www.cardcompare.asia/
+Template: enfold
+*/
+
+/* Theme customization starts here
+-------------------------------------------------------------- */
+
+/* Removing cart icon */
+@media only screen and (max-width: 768px) {
+    ul.cart_dropdown {
+        display: none!important;
+    }
+}
+
+/* Removing dotted line between icon list */
+.avia-icon-list .iconlist-timeline {
+    display: none;
+}
+
+.cc_hero-promo-home p {
+    font-size: 24px;
+    color: #CCCCCC
+}
+
+/* Angie - Overwriting to enlarge home slider button */
+#top .av_header_transparency .avia-menu-fx {
+    bottom: -1%;
+    left: 0;
+    width: 100%;
+}
+
+#top .avia-slideshow-button.avia-color-light {
+    background-color: rgba(0, 0, 0, 0.5);
+    font-size: 20px;
+    border: none;
+    padding: 16px;
+    font-weight: normal;
+}
+
+.slideshow_caption {
+    width: 58%;
+}
+
+.caption_framed .slideshow_caption .avia-caption-content p,
+.caption_framed .slideshow_caption .avia-caption-title,
+.avia-caption .avia-caption-content p,
+.avia-caption .avia-caption-title {
+    background-color: rgba(153, 204, 0, 0.5);
+    margin: 0;
+}
+
+.avia-button.avia-size-large {
+    font-size: 20px;
+    font-weight: bold;
+}
+/* Angie - end of Overwriting */
+
+.cc-promobox-home {
+    position: relative;
+    border-width: 1px;
+    border-style: dashed;
+    overflow: hidden;
+    padding: 20px 30px;
+    clear: both;
+    width: 80%;
+    margin: 25px auto 75px
+}
+
+.flex_column >.cc_promobox-home:first-child {
+    margin-top: 0
+}
+
+.cc_promobox-home .avia-button {
+    right: 30px;
+    top: 50%;
+    position: absolute;
+    z-index: 2
+}
+
+#cc-promocontent-home_btn_wrapper {
+    position: static
+}
+
+.cc-promoimage {
+    float: left;
+    margin-right: 20px
+}
+
+.cc-promoimage img {
+    height: 100px;
+    width: 100px
+}
+
+.cc-promocontent-home p {
+    font-size: 16px
+}
+
+.avia-button-no .cc-promocontent-home {
+    margin: 0
+}
+
+.cc_promobox-home .avia-button.avia-size-small {
+    margin-top: -15px
+}
+
+.cc_promobox-home .avia-button.avia-size-medium {
+    margin-top: -19px
+}
+
+.cc_promobox-home .avia-button.avia-size-large {
+    margin-top: -21px
+}
+
+@media only screen and (max-width: 767px) {
+    .responsive .cc-promocontent-home {
+        margin: 0
+    }
+    .responsive .cc_promobox-home .avia-button,
+    .responsive .cc_promobox-home .avia-button-wrap {
+        width: 100%;
+        margin-top: 4px;
+        position: relative;
+        top: 0;
+        left: 0;
+        text-align: center;
+        float: none
+    }
+}
+
+.cc-promobox-popular {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.cc-promobox-popular-title {
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+#cc-promobox-popular-icon {
+    width: 10%
+}
+
+.cc-promobox-popular-title p {
+    font-size: 22px;
+    text-align: center
+}
+
+.cc-promobox-popular-1sticon {
+    background: url(http://cardcompare.asia/wp-content/uploads/2016/01/badge.png) no-repeat;
+    float: left;
+    margin-right: 25px
+}
+
+.cc-promobox-popular-1sticon p {
+    margin-left: 55px;
+    font-size: 24px
+}
+
+.cc-promobox-popular-2ndicon {
+    background: url(http://cardcompare.asia/wp-content/uploads/2016/01/badge.png) no-repeat;
+    float: left;
+    margin-right: 25px
+}
+
+.cc-promobox-popular-2ndicon p {
+    margin-left: 55px;
+    font-size: 24px
+}
+
+.cc-promobox-popular-3rdicon {
+    background: url(http://cardcompare.asia/wp-content/uploads/2016/01/badge.png) no-repeat;
+    float: left;
+    margin-right: 25px
+}
+
+.cc-promobox-popular-3rdicon p {
+    margin-left: 55px;
+    font-size: 24px
+}
+
+.cc-promobox-popular-image {
+    float: left;
+    margin-right: 25px
+}
+
+.cc-promobox-popular-image img {
+    width: 150px
+}
+
+.cc-promobox-popular-content {
+    float: left;
+    width: 72%
+}
+
+.cc-promobox-popular-content strong {
+    font-size: 16px;
+}
+
+/* To add margin top on big screen device */
+@media only screen and (min-width: 767px) {
+    .cc-card-header-content {
+        margin-top: 20px
+    }
+}
+
+.cc-card-header-content strong {
+    font-size: 22px
+}
+
+.cc-card-header-content p {
+    font-size: 16px
+}
+
+.cc-card-content-container {
+    width: 90%
+}
+
+#top .cc-card-table {
+    width: 100%;
+    background-color: transparent;
+    border: none
+}
+
+#top .cc-card-table tr,
+td,
+th,
+tr:first-child th,
+tr:first-child td,
+tr th:first-child,
+tr td:first-child {
+    background-color: transparent;
+    border: none;
+    font-size: 14px;
+    color: #666666;
+}
+
+#top .cc-card-row1 {
+    border-bottom: solid 1px #999999 !important;
+}
+
+#top .cc-card-row2 {
+    border-bottom: none !important
+}
+
+#top .cc-card-col1 {
+    width: 60%;
+    color: #cccccc;
+}
+
+#top .cc-card-col2 {
+    width: 40%;
+    color: #ffffff;
+    font-size: 16px;
+}
+
+#top .cc-card-feature-container h3 {
+    color: #ffffff;
+}
+
+.cc-card-feature-container ul {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+    color: #ffffff;
+    font-size: 16px;
+}
+
+.cc-card-feature-container ul li {
+    text-indent: -1em
+}
+
+.cc-card-feature-container ul li:before {
+    content: "★";
+    padding-right: 5px;
+    color: #ff9933;
+    font-size: 16px;
+}
+
+#cc-card-main-content-container-child2 {
+    padding-top: 30px !important;
+    padding-bottom: 10px !important
+}
+
+#cc-card-main-content2-container-child,
+#cc-card-main-content3-container-child,
+#cc-card-main-content4-container-child,
+#cc-card-main-content5-container-child {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important
+}
+
+#top .cc-card-tab:hover {
+    background-color: #ff9933;
+	cursor: pointer;
+	color:#FFFFFF;
+}
+
+.cc-card-content3-container h2,
+.cc-card-content4-container h2,
+.cc-card-content5-container h2 {
+    margin: 40px 0;
+    text-align: center;
+}
+
+#top .cc-card-benefit-icon {
+    border-radius: 500px;
+    background-color: #333333;
+    color: #ffffff;
+    float: left;
+    font-size: 40px;
+    height: 75px;
+    line-height: 75px;
+    margin-left: 2px;
+    margin-right: 20px;
+    position: relative;
+    text-align: center;
+    width: 75px;
+    z-index: 5;
+}
+
+#top .iconlist_content ul {
+    margin-left: 20px;
+    margin-top: 10px;
+    padding-left: 0;
+    color: #666666;
+    font-size: 16px;
+}
+
+#top .cc-card-benefit {
+    padding-bottom: 40px;
+}
+#top .cc-card-benefit-title {
+    font-size: 18px;
+    text-transform: none
+}
+
+/* Eligibility & Card Info Tables */
+#top .cc-card-content4-and-5-container {
+    max-width: 1310px;
+    margin: 0 auto;
+    border-top: none;
+}
+
+#top .cc-card-content4-container .cc-card-content5-container {
+    padding: 0;
+}
+
+#top .cc-card-content4-container h3,
+.cc-card-content5-container h3 {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+#top .cc-card-content4-table {
+    margin: 0 auto;
+    width: 100%;
+}
+
+#top .cc-card-content4-row1 {
+    background-color: #fafafa;
+}
+
+#top .cc-card-content5-row1 {
+    background-color: #fafafa;
+}
+
+#top .cc-card-content4-row2,
+.cc-card-content5-row2 {
+    background-color: #ffffff;
+}
+
+#top .cc-card-content4-col1 {
+    width: 75%;
+    font-size: 12px;
+    vertical-align: middle;
+    color: #999999;
+}
+
+#top .cc-card-content5-col1 {
+    width: 25%;
+    font-size: 12px;
+    line-height: 1.3em;
+    vertical-align: middle;
+    color: #999999;
+}
+
+#top .cc-card-content4-col2 {
+    font-weight: bold;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.cc-card-content5-col2 {
+    vertical-align: middle;
+}
+
+@media only screen and (max-width: 767px) {
+    #top .cc-card-content4-col1,
+    #top .cc-card-content5-col1 {
+        width: auto;
+    }
+}
+
+/* Changing 1/5 layout to 1/7 */
+#cc-home-category-container div .cc-home-category-icon1 {
+    margin-left: inherit;
+}
+
+#cc-home-category-container div .cc-home-category-icon6,
+.cc-home-category-icon7 {
+    margin-left: 2%;
+    float: left !important;
+    clear: none !important;
+    margin-top: 0 !important;
+}
+
+#cc-home-category-container div .av_one_fifth {
+    margin-left: 2%;
+    width: 12%;
+}
+
+#footer .widget h3 {font-size: 16px !important;}
+
+/* Hide the footer copyright section */
+#socket { display:none !important; }
